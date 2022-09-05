@@ -21,5 +21,7 @@
     ```adb logcat|findstr -rnw "com.android.todolist"```
     
  7. Скопировать логи приложения todolist на компьютер
+
+    ```adb logcat|findstr "todolist">C:\Users\User\Desktop\ADB\todolist.log```
  
  9. Удалить приложение todolist с телефона через ADB
