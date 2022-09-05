@@ -25,3 +25,5 @@
     ```adb logcat|findstr "todolist">C:\Users\User\Desktop\ADB\todolist.log```
  
  9. Удалить приложение todolist с телефона через ADB
+
+    ```adb uninstall com.android.todolist```
