@@ -17,5 +17,6 @@
     ```adb shell screencap /storage/emulated/0/DCIM/gr_28.png && adb pull /storage/emulated/0/DCIM/gr_28.png  C:\Users\User\Desktop\ADB\gr_28.png```
  
  5. Вывести в консоль логи приложения todolist
- 6. Скопировать логи приложения todolist на компьютер.
- 7. Удалить приложение todolist с телефона через ADB
+    ```adb logcat|findstr -rnw "com.android.todolist"```
+ 7. Скопировать логи приложения todolist на компьютер.
+ 8. Удалить приложение todolist с телефона через ADB
