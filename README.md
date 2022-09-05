@@ -18,7 +18,7 @@
  
  5. Вывести в консоль логи приложения todolist
  
-    ```adb logcat|findstr -rnw "com.android.todolist"```
+    ```adb logcat|findstr -rnw "todolist"```
     
  7. Скопировать логи приложения todolist на компьютер
 
